@@ -5,4 +5,13 @@
     --font-size-biggest: 20px;
 
     --layout-main-width: 60em;
+
+    --color-body-default: #000;
+    --color-links-default: #A00;
+
+    --background-color-body-default: #EEE;
+
+    --color-border-default: #999;
+
+    --spacing-layout: 2em;
 }

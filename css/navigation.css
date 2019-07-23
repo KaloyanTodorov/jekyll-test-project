@@ -1,0 +1,26 @@
+.site-nav {
+
+}
+
+.site-nav > ul {
+    display: flex;
+    padding: 0;
+}
+
+.site-nav li {
+    list-style: none outside;
+    display: block;
+    padding: 0 0.5em;
+}
+
+.site-nav a {
+    display: block;
+    padding: 0.5em 1em;
+    border-radius: 0.2em;
+    background: #BBB;
+}
+
+.site-nav a:hover {
+    color: var(--background-color-body-default);
+    background: var(--color-links-default);
+}
