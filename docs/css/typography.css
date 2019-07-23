@@ -8,19 +8,19 @@
 
 html {
     box-sizing: border-box;
-    font: 14px/1.5 "Fira Sans", Georgia, serif;
+    font: var(--font-size-main, 14px)/1.5 "Fira Sans", Georgia, serif;
 }
 
 @media ( min-width: 600px ) {
-    html { font-size: 16px; }
+    html { font-size: var(--font-size-big, 16px); }
 }
 
 @media ( min-width: 1024px ) {
-    html { font-size: 18px; }
+    html { font-size: var(--font-size-bigger, 18px); }
 }
 
 @media ( min-width: 1600px ) {
-    html { font-size: 20px; }
+    html { font-size: var(--font-size-biggest, 20px); }
 }
 
 body, table, form, select, option, input, textarea {
