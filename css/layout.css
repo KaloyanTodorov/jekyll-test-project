@@ -5,6 +5,11 @@
     padding: 2em 1.5em;
 }
 
+.site-footer nav,
+.site-header nav {
+    padding-bottom: 0.5em;
+}   
+
 @media (min-width: 1024px) {
     .site-header {
         display: flex;
