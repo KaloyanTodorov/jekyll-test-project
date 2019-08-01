@@ -18,8 +18,7 @@ email: kizzata@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   test description
 destination: docs
-# baseurl: "" # use this baseurl for local testing
-baseurl: "/jekyll-test-project" # the subpath of your site, e.g. /blog
+baseurl: "" # use this baseurl for local testing
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kicata
 github_username:  KaloyanTodorov
