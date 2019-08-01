@@ -20,6 +20,10 @@
     background: #BBB;
 }
 
+.site-nav a i {
+    padding-right: 0.4em;
+}
+
 .site-nav a:hover {
     color: var(--background-color-body-default);
     background: var(--color-links-default);
